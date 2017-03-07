@@ -1,0 +1,329 @@
+Initialize engine version: 5.4.1p1 (b9eb0361f989)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 860M  (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     1972 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\Ionic.Zlib.CF.dll (this message is harmless)
+Loading D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\Ionic.Zlib.CF.dll into Unity Child Domain
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\NSpeex.dll (this message is harmless)
+Loading D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\NSpeex.dll into Unity Child Domain
+- Completed reload, in  0.168 seconds
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Unity5.x\Projectors\Test\justTest\test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 4200x1125 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 0.710245 ms
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+sendto failed with code -1 for char 9 and length 1464.
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+Couldn't send buffered RPCs to client
+ 
+(Filename:  Line: 1179)
+
+Couldn't send buffered RPCs to client
+ 
+(Filename:  Line: 1179)
+
+Couldn't send buffered RPCs to client
+ 
+(Filename:  Line: 1179)
+
+Couldn't send RPC function '__RPCNetworkInstantiate' to server
+
+ 
+(Filename:  Line: 2481)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+View ID AllocatedID: 450 not found during lookup. Strange behaviour may occur
+ 
+(Filename:  Line: 1698)
+
+Received state update for view id' AllocatedID: 450' but the NetworkView doesn't exist
+ 
+(Filename:  Line: 2492)
+
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 762)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+The referenced script on this Behaviour (Game Object 'NetworkUSpeaker') is missing!
+ 
+(Filename:  Line: 1656)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+Network instantiated object, NetworkUSpeaker(Clone), has a missing script component attached
+ 
+(Filename:  Line: 2481)
+
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+sendto failed with code -1 for char 9 and length 1464.
+Couldn't send buffered RPCs to client
+ 
+(Filename:  Line: 1179)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3960 -> priority: 1 
+  Thread -> id: 2b94 -> priority: 1 
