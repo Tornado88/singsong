@@ -15,6 +15,7 @@ public class DisplayLrc : MonoBehaviour
 {
     public Text MusicLrc;
     public Text MusicLrc1;
+    public Text MusicLrc2;
     private AudioSource mp3; //音乐
     private Encoding enc; //更改歌词字符编码
     private StreamReader sr; //读取歌词
@@ -61,34 +62,18 @@ public class DisplayLrc : MonoBehaviour
     //去掉除歌词外的其他东西
     public void Replacestr(string inputstr)
     {
-        string lrcTxt = null;
-        string pattner = @"(?<q><[^>]*>)";//去除歌词中<>字符正则表达式
-        string sPattner = "(?<t>\\[\\d.*\\]+)(?<w>[^\\[]+\r\n)";//<t>中文以外的表达式<w>显示的歌词
+        string sPattner = "(\\[)" + "(\\d+)" + "(:)" + "(\\d+)" + "(\\.)" + "(\\d+)" + "(\\])";
         Regex reg = new Regex(sPattner);
         foreach (Match mc in reg.Matches(inputstr))
-        {
-            lrcTxt = mc.Groups["w"].ToString();
-            if (lrcTxt != null)//读取当前行不为空
-            {
-                lrcTxt = Regex.Replace(lrcTxt, pattner, "");//把歌词中的<>去除掉
-                strList.Add(lrcTxt);
-            }
+        {  
+            strList.Add(inputstr.Substring(inputstr.IndexOf(mc.Value)+ mc.Value.Length));
         }
     }
 
     //获取字符串的时间
     public void Time(string t)
     {
-        string c = null;
-        string re1 = "(\\[)";   // Any Single Character 1
-        string re2 = "(\\d+)";  // Integer Number 1
-        string re3 = "(:)"; // Any Single Character 2
-        string re4 = "(\\d+)";  // Integer Number 2
-        string re5 = "(\\.)";   // Any Single Character 3
-        string re6 = "(\\d+)";  // Integer Number 3
-        string re7 = "(\\])";	// Any Single Character 4
-
-        string sPattner = re1+re2+re3+re4+re5+re6+re7;// "(?<t>\\[\\d.*\\]+)(?<q><[^>]*>)(?<w>[^\\[]+\r\n)";
+        string sPattner = "(\\[)" + "(\\d+)" + "(:)" + "(\\d+)" + "(\\.)" + "(\\d+)" + "(\\])";// "(?<t>\\[\\d.*\\]+)(?<q><[^>]*>)(?<w>[^\\[]+\r\n)";
         Regex reg = new Regex(sPattner);
         foreach (Match mc in reg.Matches(t))
         {
@@ -108,8 +93,9 @@ public class DisplayLrc : MonoBehaviour
         {
             if (timList[i] <= tmpf)
             {
-                MusicLrc.text = strList[i];
-                MusicLrc1.text = strList[i+1];
+                MusicLrc.text = i - 1 >= 0 ? strList[i - 1] : "";
+                MusicLrc1.text = strList[i];
+                MusicLrc2.text = strList[i + 1];
                 x = i + 1;
             }
             else
